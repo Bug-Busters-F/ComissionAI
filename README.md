@@ -40,8 +40,8 @@ O sistema integra bases de RH, vendas e comissionamento para realizar apuraçõe
 | Sprint | Previsão | Status |
 | ------ | -------- | ------ |
 | Kick Off | 26/08 | Concluido |  
-| [01](docs/sprint-1.md) | 27/09 | Em andamento |
-| [02](docs/sprint-2.md) | 25/10 | A fazer|
+| [01](docs/sprint-1.md) | 27/09 | Concluida |
+| [02](docs/sprint-2.md) | 25/10 | Em andamento |
 | [03](docs/sprint-3.md) | 22/11 | A fazer |
 | Feira de Soluções | 03/12 | A fazer |
 
@@ -66,11 +66,11 @@ Estimativas em Story Points.
 
 ### Roadmap
 
-![Roadmap](docs/img/roadmap.png)
+<img width="1246" height="696" alt="image" src="https://github.com/user-attachments/assets/36b05001-fd0c-46f8-9b3f-35a6b42c23c0" />
 
 ---
 
-<!-- ### Sprint 1
+### Sprint 1
 
 VIDEO AQUI
 
