@@ -39,7 +39,7 @@ Histórias 1 a 6 do [backlog do produto](../README.md#backlog-do-produto), previ
 | 3 | Média | Como administrador, quero que o sistema bloqueie o cadastro de regras de negócio que não possuam data final definida, para evitar comissionamentos por tempo indeterminado. | 2 | 1 | Backlog |
 | 4 | Alta | Como administrador, quero que cada cálculo de comissão executado gere um log imutável para garantir a rastreabilidade em caso de contestações financeiras. | 3 | 1 | Backlog |
 | 5 | Alta | Como gestor de negócios, quero digitar uma regra em texto livre e ter o sistema traduzindo-a para o padrão executável da aplicação. | 8 | 1 | Backlog |
-| 6 | Alta | Como administrador, quero importar as bases de RH, vendas e taxas de comissão para compor os dados do sistema e viabilizar o cálculo de comissionamento por competência. | 8 | 1 | PRENCHER |
+| 6 | Alta | Como administrador, quero importar as bases de RH, vendas e taxas de comissão para compor os dados do sistema e viabilizar o cálculo de comissionamento por competência. | 8 | 1 | Backlog |
 
 **Total estimado: 29 Story Points.**
 
@@ -77,11 +77,13 @@ Critérios sugeridos a partir do modelo, para verificar se uma história pode se
 | Documentação atualizada | As regras, os endpoints e as instruções afetadas pela implementação foram documentados. |
 | Validação funcional pelo PO | O Product Owner verificou e aprovou a entrega da história. |
 
-<!-- ## 🏅 Sprint Burndown <a id="burndown"></a>
+ ## 🏅 Sprint Burndown <a id="burndown"></a>
 
-**Gráfico do burndown da Sprint 1:** PRENCHER
+**Gráfico do burndown da Sprint 1:** 
 
-**Período e dados de acompanhamento:** PRENCHER -->
+<img width="1560" height="735" alt="image" src="https://github.com/user-attachments/assets/e91b3bd8-4e24-41f2-8759-5564cee61cbc" />
+
+**Período e dados de acompanhamento:** 07/09 - 27/09
 
 ## 🎓 Equipe <a id="equipe"></a>
 
