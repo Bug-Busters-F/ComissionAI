@@ -113,35 +113,6 @@ Para que uma User Story seja considerada pronta para execução na Sprint, ela d
 
 https://github.com/user-attachments/assets/3d2bf9c3-1b60-414b-8e01-1c0d258c6be4
 
-#### Sprint Goal
-Entregar a base funcional e a infraestrutura de dados da plataforma ComissionAI, viabilizando a ingestão validada das bases mensais (RH, Vendas e Taxas), o cálculo determinístico de comissões com segregação de impedimentos por vínculo trabalhista, a proteção contra reprocessamento e o fluxo assistido por IA para estruturação e simulação preliminar de campanhas.
-
-#### Critérios de Aceitação e Refinamento Técnico (BDD / Gherkin)
-
-**Cenário 1: Apuração determinística com rastreabilidade de origem**
-* **Dado** que a competência "07/2025" possui arquivos de RH, Vendas e Taxas efetivados no banco de dados
-* **Quando** o usuário aciona o processamento da competência através de "Calcular comissões"
-* **Então** o sistema deve calcular as vendas elegíveis com precisão monetária (duas casas decimais)
-* **E** registrar a origem da taxa aplicada como "Regra de negócio" ou "Taxa base" junto à data de execução.
-
-**Cenário 2: Segregação automática de vendas com impedimento temporal**
-* **Dado** que um registro de venda possui data de realização anterior à admissão do colaborador indicada no RH
-* **Quando** o motor de comissionamento processar a competência
-* **Então** o registro deve ser segregado da apuração de sucesso e listado na aba "Vendas com impedimento"
-* **E** o motivo impeditivo deve ser exposto detalhadamente para auditoria operacional.
-
-**Cenário 3: Proteção contra reprocessamento duplicado e preservação de histórico**
-* **Dado** que uma competência já foi previamente apurada e possui cálculos registrados
-* **Quando** o usuário solicitar um novo recálculo
-* **Então** as vendas não alteradas devem manter seus resultados originais preservados
-* **E** o sistema deve evitar a geração de duplicidades financeiras ou redundância em registros de log.
-
-**Cenário 4: Interpretação de proposta em linguagem natural e alerta de estouro de teto**
-* **Dado** que o gestor insere uma proposta em texto livre ("Aumentar comissao PRETO 10% em agosto de 2025") com teto de orçamento
-* **Quando** a IA interpretar a proposta e a simulação for executada nos cenários de 80%, 100% e 120%
-* **Então** os parâmetros de vigência, percentual e marca devem ser estruturados em tela
-* **E** caso a projeção de custo supere o orçamento estipulado, o sistema deve emitir alerta visual explícito de "Orçamento excedido".
-
 <!-- ### Sprint 2
 
 VIDEO AQUI
