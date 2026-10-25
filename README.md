@@ -113,11 +113,12 @@ Para que uma User Story seja considerada pronta para execução na Sprint, ela d
 
 https://github.com/user-attachments/assets/3d2bf9c3-1b60-414b-8e01-1c0d258c6be4
 
-<!-- ### Sprint 2
+### Sprint 2
 
-VIDEO AQUI
 
-### Sprint 3
+https://github.com/user-attachments/assets/f865b432-0b44-4ec9-8c4a-7a9cbc3a5887
+
+<!-- ### Sprint 3
 
 VIDEO AQUI -->
 
