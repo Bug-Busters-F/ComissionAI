@@ -283,7 +283,7 @@ Critérios cumpridos para considerar as entregas da Sprint 2 formalmente conclu�
 
 <!-- Inserir imagem do gráfico de Burndown da Sprint 2 aqui -->
 <div align="center">
-  <p><em>[Espaço reservado para inserção da imagem do gráfico de Burndown da Sprint 2]</em></p>
+  <img width="1539" height="564" alt="image" src="https://github.com/user-attachments/assets/bffd62c3-8662-4fa8-84f7-41a1fc5ffd3d" />
 </div>
 
 **Período e dados de acompanhamento:** 28/09/2026 a 25/10/2026 — 18 Story Points entregues (100% de conclusão do escopo planejado).
