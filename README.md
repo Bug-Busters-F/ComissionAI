@@ -51,7 +51,7 @@ A plataforma **ComissionAI** resolve esse cenário unificando a ingestão de dad
 | ------ | -------- | ------ |
 | Kick Off | 26/08 | Concluido |  
 | [01](docs/sprint-1.md) | 27/09 | Concluida |
-| [02](docs/sprint-2.md) | 25/10 | Em andamento |
+| [02](docs/sprint-2.md) | 25/10 | Concluida |
 | [03](docs/sprint-3.md) | 22/11 | A fazer |
 | Feira de Soluções | 03/12 | A fazer |
 
