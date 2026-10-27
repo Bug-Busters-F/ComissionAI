@@ -181,7 +181,7 @@ Critérios de prontidão que estabelecem se uma User Story está suficientemente
 - [x] Estimativa de esforço acordada em consenso;
 - [x] Mapeamento de dependências e ausência de bloqueios;
 - [x] Validação técnica e alinhamento conjunto com a equipe;
-- [x] Protótipos de interface (UI/UX) e fluxos validados;
+- [x] Mockup e layout das telas definidos;
 - [x] Massa de dados e cenários de referência disponíveis;
 - [x] Modelagem relacional e migrations planejadas.
 
@@ -194,7 +194,7 @@ Critérios de prontidão que estabelecem se uma User Story está suficientemente
 | **Estimativa de esforço acordada em consenso** | Ponderação de complexidade e esforço relativo por Planning Poker pelo time. | **Cumprido:** 29 Story Points distribuídos e acordados por consenso da equipe. |
 | **Mapeamento de dependências e ausência de bloqueios** | Integrações entre frontend Vue.js, Spring Boot e banco relacional mapeadas. | **Cumprido:** Identificação das chaves de integridade relacional (matrícula, cargo, marca). |
 | **Validação técnica e alinhamento conjunto com a equipe** | Discussão de viabilidade, limites arquiteturais e responsabilidades técnicas. | **Cumprido:** Sprint Planning realizado com alinhamento entre desenvolvedores, Scrum Master e PO. |
-| **Protótipos de interface (UI/UX) e fluxos validados** | Wireframes e telas operacionais concebidos e aprovados para os usuários. | **Cumprido:** Telas de upload atômico, relatórios de validação e CRUD de regras validadas. |
+| **Mockup e layout das telas definidos** | Estrutura visual e disposição das telas alinhadas para orientar o desenvolvimento. | **Cumprido:** Layouts das telas de upload atômico, relatórios de validação e CRUD de regras definidos. |
 | **Massa de dados e cenários de referência disponíveis** | Arquivos de exemplo e planilhas reais de competência carregadas para testes. | **Cumprido:** Planilhas de homologação de Vendas, RH e Taxas de Julho/2025 disponíveis. |
 | **Modelagem relacional e migrations planejadas** | Esquema de tabelas, chaves estrangeiras e scripts Flyway estruturados. | **Cumprido:** Migrations V1 a V13 preparadas para persistência de vendas, vínculos e regras. |
 

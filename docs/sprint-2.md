@@ -252,7 +252,7 @@ Critérios de prontidão que estabelecem se uma User Story está suficientemente
 - [x] Estimativa de esforço acordada em consenso;
 - [x] Mapeamento de dependências e ausência de bloqueios;
 - [x] Validação técnica e alinhamento conjunto com a equipe;
-- [x] Protótipos de interface (UI/UX) e fluxos validados;
+- [x] Mockup e layout das telas definidos;
 - [x] Massa de dados e cenários de referência disponíveis;
 - [x] Modelagem relacional e migrations planejadas.
 
@@ -265,7 +265,7 @@ Critérios de prontidão que estabelecem se uma User Story está suficientemente
 | **Estimativa de esforço acordada em consenso** | Ponderação de esforço relativo pontuado colaborativamente via Planning Poker. | **Cumprido:** 18 Story Points acordados para as USs 07, 08 e 09. |
 | **Mapeamento de dependências e ausência de bloqueios** | Dependências de tool calling, modelo LLM da Groq e comunicação inter-serviços. | **Cumprido:** Resolução de rate limits, schema estrito e conectores REST homologados. |
 | **Validação técnica e alinhamento conjunto com a equipe** | Acordo da equipe sobre arquitetura Human-in-the-Loop, versionamento e sandbox. | **Cumprido:** Sprint Planning realizado com consenso unânime entre todos os membros. |
-| **Protótipos de interface (UI/UX) e fluxos validados** | Mockups do simulador multi-cenários, cards de blocos de regras e tela de fechamento. | **Cumprido:** Interfaces do assistente de campanhas e XAI desenhadas e aprovadas. |
+| **Mockup e layout das telas definidos** | Estrutura visual e disposição das telas alinhadas para orientar o desenvolvimento. | **Cumprido:** Mockups do assistente de campanhas, simulador multi-cenários e XAI definidos. |
 | **Massa de dados e cenários de referência disponíveis** | Casos de ouro (*Golden Cases*) e massa histórica de vendas consolidados. | **Cumprido:** Arquivo `golden_cases.json` e bases históricas de teste integrados. |
 | **Modelagem relacional e migrations planejadas** | Estrutura de campanhas multi-regras, simulações e fechamento de competência. | **Cumprido:** Migrations Flyway V14 a V23 estruturadas no PostgreSQL. |
 
