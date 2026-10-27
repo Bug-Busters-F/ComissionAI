@@ -172,27 +172,31 @@ Estabelecer a espinha dorsal de dados e regras da plataforma ComissionAI, priori
 
 ## 🎯 DoR — Definition of Ready <a id="dor"></a>
 
-Critérios de prontidão que estabelecem se uma User Story está suficientemente refinada e pronta para entrar no ciclo de desenvolvimento:
+Critérios de prontidão que estabelecem se uma User Story está suficientemente refinada e apta a entrar no ciclo de desenvolvimento:
 
-- [x] Título claro, descrição definida e objetivo compreendido;
-- [x] Critérios de aceitação escritos;
-- [x] Regras de negócio claras;
-- [x] Foi estimada pela equipe;
-- [x] Sem dependências bloqueadoras;
-- [x] Compreensão validada com o time;
-- [x] Mockup disponível;
-- [x] Os dados de treinamento estão disponíveis;
+- [x] História e objetivos de negócio consolidados;
+- [x] Critérios de aceitação e cenários BDD formulados;
+- [x] Regras de negócio e políticas financeiras definidas;
+- [x] Contratos de interface e schemas de dados acordados;
+- [x] Estimativa de esforço acordada em consenso;
+- [x] Mapeamento de dependências e ausência de bloqueios;
+- [x] Validação técnica e alinhamento conjunto com a equipe;
+- [x] Protótipos de interface (UI/UX) e fluxos validados;
+- [x] Massa de dados e cenários de referência disponíveis;
+- [x] Modelagem relacional e migrations planejadas.
 
 | Critério | Descrição | Atendimento na Sprint 1 |
 | :------- | :-------- | :---------------------- |
-| **Título claro, descrição definida e objetivo compreendido** | User Stories estruturadas com persona, ação e valor de negócio explícitos. | **Cumprido:** USs 01 a 06 revisadas com papéis operacionais e corporativos reais da Dom Rock. |
-| **Critérios de aceitação escritos** | Critérios objetivos, mensuráveis e verificáveis detalhados para cada história. | **Cumprido:** Critérios de aceitação e cenários de teste em formato BDD (*Gherkin*) formulados para cada US. |
-| **Regras de negócio claras** | Políticas de cálculo determinístico, arredondamento monetário (`BigDecimal` `HALF_UP`) e impedimentos especificadas. | **Cumprido:** Política de cálculo determinístico, bloqueio de vigência indeterminada e regras de segregação de vínculos especificadas. |
-| **Foi estimada pela equipe** | Esforço relativo ponderado e pontuado de forma colaborativa. | **Cumprido:** 29 Story Points distribuídos e acordados no Planning Poker entre os membros do time. |
-| **Sem dependências bloqueadoras** | Pré-requisitos técnicos, esquemas de dados e fluxos mapeados sem impedimentos externos. | **Cumprido:** Definição das chaves de vínculo (matrícula, admissão, cargos, marcas) e contratos de API acordados. |
-| **Compreensão validada com o time** | Alinhamento conjunto entre desenvolvedores, PO e Scrum Master sobre o que construir. | **Cumprido:** Reunião de Sprint Planning realizada com consenso da equipe Bug Busters e validação do PO. |
-| **Mockup disponível** | Protótipos de interface e fluxos operacionais desenhados e validados. | **Cumprido:** Telas de cadastro manual de regras, importação de bases de ciclo e apuração desenhadas e aprovadas. |
-| **Os dados de treinamento estão disponíveis** | Bases de dados reais, massa de teste e dados de referência prontos para uso. | **Cumprido:** Planilhas de homologação de Vendas, RH e Taxas carregadas no repositório para ingestão e testes. |
+| **História e objetivos de negócio consolidados** | User Stories estruturadas com personas da Dom Rock, dor do cliente e valor gerado. | **Cumprido:** USs 01 a 06 com escopo, prioridade e papéis de usuário formalizados. |
+| **Critérios de aceitação e cenários BDD formulados** | Critérios objetivos e cenários de teste em formato *Dado-Quando-Então* (Gherkin). | **Cumprido:** Cenários de homologação detalhados individualmente para cada uma das 6 histórias. |
+| **Regras de negócio e políticas financeiras definidas** | Diretrizes de cálculo determinístico, arredondamento `BigDecimal` (`HALF_UP`) e segregação temporal. | **Cumprido:** Regra de vínculo contratual com admissão/demissão e política de vigência obrigatória definidas. |
+| **Contratos de interface e schemas de dados acordados** | Formato de comunicação, payloads multipart de upload e endpoints REST alinhados. | **Cumprido:** Contratos de ingestão conjunta (RH + Vendas) e endpoints de cálculo definidos. |
+| **Estimativa de esforço acordada em consenso** | Ponderação de complexidade e esforço relativo por Planning Poker pelo time. | **Cumprido:** 29 Story Points distribuídos e acordados por consenso da equipe. |
+| **Mapeamento de dependências e ausência de bloqueios** | Integrações entre frontend Vue.js, Spring Boot e banco relacional mapeadas. | **Cumprido:** Identificação das chaves de integridade relacional (matrícula, cargo, marca). |
+| **Validação técnica e alinhamento conjunto com a equipe** | Discussão de viabilidade, limites arquiteturais e responsabilidades técnicas. | **Cumprido:** Sprint Planning realizado com alinhamento entre desenvolvedores, Scrum Master e PO. |
+| **Protótipos de interface (UI/UX) e fluxos validados** | Wireframes e telas operacionais concebidos e aprovados para os usuários. | **Cumprido:** Telas de upload atômico, relatórios de validação e CRUD de regras validadas. |
+| **Massa de dados e cenários de referência disponíveis** | Arquivos de exemplo e planilhas reais de competência carregadas para testes. | **Cumprido:** Planilhas de homologação de Vendas, RH e Taxas de Julho/2025 disponíveis. |
+| **Modelagem relacional e migrations planejadas** | Esquema de tabelas, chaves estrangeiras e scripts Flyway estruturados. | **Cumprido:** Migrations V1 a V13 preparadas para persistência de vendas, vínculos e regras. |
 
 ---
 
@@ -200,23 +204,27 @@ Critérios de prontidão que estabelecem se uma User Story está suficientemente
 
 Critérios de conclusão que determinam se uma demanda ou incremento foi finalizado com excelência técnica e valor entregue:
 
-- [x] Atende aos critérios de aceitação;
-- [x] Atende aos requisitos funcionais;
-- [x] Code review feita e validada;
-- [x] Código fonte disponível e executável;
-- [x] Teste de código realizado;
-- [x] Teste realizado na visão do cliente por todo o time;
-- [x] Vídeo dos incrementos da Sprint no repositório do github.
+- [x] Conformidade com os critérios de aceitação e BDD;
+- [x] Requisitos funcionais e fluxo de negócio operacionais;
+- [x] Revisão de código por pares (Code Review) homologada;
+- [x] Código-fonte integrado, versionado e executável;
+- [x] Cobertura de testes automatizados executada com sucesso;
+- [x] Integridade de dados e persistência relacional verificadas;
+- [x] Homologação funcional sob a perspectiva do cliente por todo o time;
+- [x] Documentação técnica e relatórios de sprint atualizados;
+- [x] Evidência em vídeo e demonstração pública no repositório.
 
 | Critério | Descrição | Evidência de Cumprimento na Sprint 1 |
 | :------- | :-------- | :----------------------------------- |
-| **Atende aos critérios de aceitação** | Todas as regras, limites e fluxos de cada User Story verificados e operacionais. | **Cumprido:** Todas as regras das US 01 a 06 implementadas e em execução. |
-| **Atende aos requisitos funcionais** | Motor de comissionamento determinístico, segregação de impedimentos e ingestão validados de ponta a ponta. | **Cumprido:** 4.975 vendas calculadas e 43 impedimentos cadastrais identificados com precisão. |
-| **Code review feita e validada** | Revisão de código por pares via Pull Requests seguindo as diretrizes do Git Flow. | **Cumprido:** Pull Requests revisados e mesclados nas branches oficiais da sprint. |
-| **Código fonte disponível e executável** | Repositórios sincronizados, documentados e com persistência relacional garantida. | **Cumprido:** Tabelas de vendas, vínculos e regras persistidas no PostgreSQL com migrations Flyway. |
-| **Teste de código realizado** | Bateria de testes unitários e testes de integração executados sem falhas. | **Cumprido:** Validação de carga e execução de cálculo sem falhas de concorrência ou duplicação. |
-| **Teste realizado na visão do cliente por todo o time** | Validação funcional e homologação do comportamento do sistema realizada por todo o time durante o desenvolvimento. | **Cumprido:** Demonstração e homologação do ciclo operacional realizadas e aceitas pelo PO Davi Miyake. |
-| **Vídeo dos incrementos da Sprint no repositório do github** | Gravação em vídeo demonstrando todos os incrementos e fluxos da Sprint em execução real. | **Cumprido:** Demonstração completa gravada e referenciada no repositório oficial (link de vídeo no README/docs). |
+| **Conformidade com os critérios de aceitação e BDD** | Todas as regras, validações e fluxos de cada User Story verificados. | **Cumprido:** Todas as histórias da Sprint 1 implementadas e operando conforme BDD. |
+| **Requisitos funcionais e fluxo de negócio operacionais** | Ciclo operacional de ingestão, validação cruzada e apuração funcionando de ponta a ponta. | **Cumprido:** 4.975 vendas apuradas e 43 impedimentos cadastrais segregados com sucesso. |
+| **Revisão de código por pares (Code Review) homologada** | Análise e aprovação de Pull Requests seguindo as diretrizes do Git Flow. | **Cumprido:** PRs revisados e mesclados nas branches oficiais da sprint. |
+| **Código-fonte integrado, versionado e executável** | Código sincronizado nos repositórios, sem erros de build e pronto para execução. | **Cumprido:** Repositórios organizados com Docker e build de Maven/Vite sem falhas. |
+| **Cobertura de testes automatizados executada com sucesso** | Testes unitários, de carga e de integridade executados sem quebras. | **Cumprido:** Testes do motor de cálculo determinístico e regras de validação aprovados. |
+| **Integridade de dados e persistência relacional verificadas** | Validação de constraints, integridade referencial e logs imutáveis no PostgreSQL. | **Cumprido:** Tabelas de vendas, regras e logs de execução persistidos com Flyway. |
+| **Homologação funcional sob a perspectiva do cliente por todo o time** | Validação prática simulando os cenários operacionais da Dom Rock pelo PO e equipe. | **Cumprido:** Demonstração operacional validada e homologada pelo PO Davi Miyake e time. |
+| **Documentação técnica e relatórios de sprint atualizados** | Manuais, contratos de interface e registro de sprint sincronizados. | **Cumprido:** Documentação completa da Sprint 1 e README integrados no GitHub. |
+| **Evidência em vídeo e demonstração pública no repositório** | Gravação audiovisual completa comprovando a execução do incremento de software. | **Cumprido:** Demonstração completa gravada e referenciada no repositório oficial (link de vídeo no README/docs). |
 
 ---
 

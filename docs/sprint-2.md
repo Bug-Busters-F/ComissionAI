@@ -243,27 +243,31 @@ Elevar o nível de maturidade da plataforma ComissionAI por meio de simulação 
 
 ## 🎯 DoR — Definition of Ready <a id="dor"></a>
 
-Critérios de prontidão que estabelecem se uma User Story está suficientemente refinada e pronta para entrar no ciclo de desenvolvimento:
+Critérios de prontidão que estabelecem se uma User Story está suficientemente refinada e apta a entrar no ciclo de desenvolvimento:
 
-- [x] Título claro, descrição definida e objetivo compreendido;
-- [x] Critérios de aceitação escritos;
-- [x] Regras de negócio claras;
-- [x] Foi estimada pela equipe;
-- [x] Sem dependências bloqueadoras;
-- [x] Compreensão validada com o time;
-- [x] Mockup disponível;
-- [x] Os dados de treinamento estão disponíveis;
+- [x] História e objetivos de negócio consolidados;
+- [x] Critérios de aceitação e cenários BDD formulados;
+- [x] Regras de negócio e políticas financeiras definidas;
+- [x] Contratos de interface e schemas de dados acordados;
+- [x] Estimativa de esforço acordada em consenso;
+- [x] Mapeamento de dependências e ausência de bloqueios;
+- [x] Validação técnica e alinhamento conjunto com a equipe;
+- [x] Protótipos de interface (UI/UX) e fluxos validados;
+- [x] Massa de dados e cenários de referência disponíveis;
+- [x] Modelagem relacional e migrations planejadas.
 
 | Critério | Descrição | Atendimento na Sprint 2 |
 | :------- | :-------- | :---------------------- |
-| **Título claro, descrição definida e objetivo compreendido** | User Stories estruturadas com persona, ação e valor de negócio claros. | **Cumprido:** Histórias US 07, 08 e 09 com papéis, escopo e metas compreendidos por todos os membros. |
-| **Critérios de aceitação escritos** | Critérios objetivos, mensuráveis e verificáveis detalhados para cada história. | **Cumprido:** Critérios de aceitação e cenários de teste em formato BDD (*Gherkin*) formulados para cada US. |
-| **Regras de negócio claras** | Políticas de cálculo, precedência, faixas de valor, bônus, blindagem e bloqueios formalizadas. | **Cumprido:** Especificação técnica em `CONTRATOS_REGRAS_AVANCADAS.md` e regras de desempate alinhadas. |
-| **Foi estimada pela equipe** | Esforço relativo ponderado e pontuado de forma colaborativa. | **Cumprido:** 18 Story Points distribuídos e acordados no Planning Poker para as três histórias. |
-| **Sem dependências bloqueadoras** | Pré-requisitos técnicos, contratos de API e esquemas mapeados sem bloqueios externos. | **Cumprido:** Contratos v2 entre Frontend, Backend e Serviço de IA previamente definidos e validados. |
-| **Compreensão validada com o time** | Alinhamento conjunto entre desenvolvedores, PO e Scrum Master sobre o que construir. | **Cumprido:** Reunião de Sprint Planning realizada com consenso de toda a equipe Bug Busters. |
-| **Mockup disponível** | Protótipos de interface e fluxos de navegação desenhados e validados. | **Cumprido:** Wireframes e mockups do assistente de campanhas, simulador multi-cenários e XAI aprovados. |
-| **Os dados de treinamento estão disponíveis** | Bases de dados reais, massa de teste e casos de referência prontos para uso da IA. | **Cumprido:** Planilhas históricas de Vendas/RH e arquivo `golden_cases.json` integrados para testes do agente. |
+| **História e objetivos de negócio consolidados** | User Stories estruturadas com foco em simulação orçamentária, governança e XAI. | **Cumprido:** Histórias US 07, 08 e 09 com objetivos de negócio e valor corporativo definidos. |
+| **Critérios de aceitação e cenários BDD formulados** | Critérios objetivos e cenários de teste em formato BDD (*Gherkin*) detalhados. | **Cumprido:** Cenários de simulação sandbox, invalidação de aceite e fechamento imutável. |
+| **Regras de negócio e políticas financeiras definidas** | Matriz de especificidade, faixas de valor, bônus e isolamento de simulação. | **Cumprido:** Regras de desempate, bônus monetário e bloqueio por base ausente especificadas. |
+| **Contratos de interface e schemas de dados acordados** | Contratos de API v2 entre Vue.js, Spring Boot e FastAPI formalizados. | **Cumprido:** Especificação técnica formal em `CONTRATOS_REGRAS_AVANCADAS.md`. |
+| **Estimativa de esforço acordada em consenso** | Ponderação de esforço relativo pontuado colaborativamente via Planning Poker. | **Cumprido:** 18 Story Points acordados para as USs 07, 08 e 09. |
+| **Mapeamento de dependências e ausência de bloqueios** | Dependências de tool calling, modelo LLM da Groq e comunicação inter-serviços. | **Cumprido:** Resolução de rate limits, schema estrito e conectores REST homologados. |
+| **Validação técnica e alinhamento conjunto com a equipe** | Acordo da equipe sobre arquitetura Human-in-the-Loop, versionamento e sandbox. | **Cumprido:** Sprint Planning realizado com consenso unânime entre todos os membros. |
+| **Protótipos de interface (UI/UX) e fluxos validados** | Mockups do simulador multi-cenários, cards de blocos de regras e tela de fechamento. | **Cumprido:** Interfaces do assistente de campanhas e XAI desenhadas e aprovadas. |
+| **Massa de dados e cenários de referência disponíveis** | Casos de ouro (*Golden Cases*) e massa histórica de vendas consolidados. | **Cumprido:** Arquivo `golden_cases.json` e bases históricas de teste integrados. |
+| **Modelagem relacional e migrations planejadas** | Estrutura de campanhas multi-regras, simulações e fechamento de competência. | **Cumprido:** Migrations Flyway V14 a V23 estruturadas no PostgreSQL. |
 
 ---
 
@@ -271,23 +275,27 @@ Critérios de prontidão que estabelecem se uma User Story está suficientemente
 
 Critérios de conclusão que determinam se uma demanda ou incremento foi finalizado com excelência técnica e valor entregue:
 
-- [x] Atende aos critérios de aceitação;
-- [x] Atende aos requisitos funcionais;
-- [x] Code review feita e validada;
-- [x] Código fonte disponível e executável;
-- [x] Teste de código realizado;
-- [x] Teste realizado na visão do cliente por todo o time;
-- [x] Vídeo dos incrementos da Sprint no repositório do github.
+- [x] Conformidade com os critérios de aceitação e BDD;
+- [x] Requisitos funcionais e fluxo de negócio operacionais;
+- [x] Revisão de código por pares (Code Review) homologada;
+- [x] Código-fonte integrado, versionado e executável;
+- [x] Cobertura de testes automatizados executada com sucesso;
+- [x] Integridade de dados e persistência relacional verificadas;
+- [x] Homologação funcional sob a perspectiva do cliente por todo o time;
+- [x] Documentação técnica e relatórios de sprint atualizados;
+- [x] Evidência em vídeo e demonstração pública no repositório.
 
 | Critério | Descrição | Evidência de Cumprimento na Sprint 2 |
 | :------- | :-------- | :----------------------------------- |
-| **Atende aos critérios de aceitação** | Todas as regras, limites e fluxos de cada User Story verificados e operacionais. | **Cumprido:** Todos os critérios das US 07, 08 e 09 atendidos integralmente. |
-| **Atende aos requisitos funcionais** | Funcionalidades de simulação sandbox, governança HITL, XAI e fechamento funcionando de ponta a ponta. | **Cumprido:** Fluxo completo operando em produção com integração entre Front, Back e IA. |
-| **Code review feita e validada** | Revisão de código por pares via Pull Requests seguindo as diretrizes do Git Flow. | **Cumprido:** Todos os PRs dos 3 repositórios revisados, aprovados e mesclados em `dev`/`main`. |
-| **Código fonte disponível e executável** | Repositórios sincronizados, documentados e sem erros de compilação ou execução. | **Cumprido:** Códigos atualizados nos repositórios da organização, com migrations Flyway e Docker operacionais. |
-| **Teste de código realizado** | Bateria de testes unitários, testes de integração e testes de borda automatizados executados. | **Cumprido:** Mais de 330 testes automatizados no Spring Boot e suíte de Golden Cases no Python aprovados. |
-| **Teste realizado na visão do cliente por todo o time** | Validação funcional e homologação do comportamento do sistema realizada por todo o time durante o desenvolvimento. | **Cumprido:** Homologação realizada pelo PO Davi Miyake validando os fluxos e a precisão das regras. |
-| **Vídeo dos incrementos da Sprint no repositório do github** | Gravação em vídeo demonstrando todos os incrementos e fluxos da Sprint em execução real. | **Cumprido:** Demonstração funcional gravada e disponibilizada no repositório do projeto. |
+| **Conformidade com os critérios de aceitação e BDD** | Todas as regras, limites e fluxos das User Stories 07, 08 e 09 verificados. | **Cumprido:** Simulação sandbox, aceite formal, Explainable AI e fechamento validados. |
+| **Requisitos funcionais e fluxo de negócio operacionais** | Módulos de simulação multi-cenário, agente com tools, XAI e fechamento operando. | **Cumprido:** Fluxo de ponta a ponta em execução real integrando Frontend, Backend e IA. |
+| **Revisão de código por pares (Code Review) homologada** | Análise e aprovação de Pull Requests seguindo as diretrizes do Git Flow. | **Cumprido:** Todos os PRs nos 3 repositórios revisados e mesclados em `dev`/`main`. |
+| **Código-fonte integrado, versionado e executável** | Repositórios sincronizados, builds limpos e ambientes conteinerizados funcionais. | **Cumprido:** Código executável com Docker e sem inconsistências de compilação. |
+| **Cobertura de testes automatizados executada com sucesso** | Bateria de testes unitários, testes de integração e suíte de Golden Cases aprovados. | **Cumprido:** Mais de 330 testes automatizados no Spring Boot e suíte de IA no Python aprovados. |
+| **Integridade de dados e persistência relacional verificadas** | Persistência de simulações, versionamento de campanha e fechamento imutável. | **Cumprido:** Tabelas `tb_simulacao`, `tb_campanha` e `tb_fechamento_competencia` persistidas. |
+| **Homologação funcional sob a perspectiva do cliente por todo o time** | Testes e validações operacionais simulando a ótica dos gestores da Dom Rock. | **Cumprido:** Homologação realizada pelo PO Davi Miyake com validação de todo o time. |
+| **Documentação técnica e relatórios de sprint atualizados** | Documentação de contratos v2, artefatos explicativos e guia de sprint finalizados. | **Cumprido:** Documentação completa da Sprint 2 com burndown e diagramas no GitHub. |
+| **Evidência em vídeo e demonstração pública no repositório** | Gravação audiovisual completa comprovando o funcionamento dos incrementos da Sprint. | **Cumprido:** Demonstração funcional gravada e disponibilizada no repositório do projeto. |
 
 ---
 
