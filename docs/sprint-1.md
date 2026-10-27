@@ -170,37 +170,53 @@ Estabelecer a espinha dorsal de dados e regras da plataforma ComissionAI, priori
 
 ---
 
-## 🏅 DoR — Definition of Ready <a id="dor"></a>
+## 🎯 DoR — Definition of Ready <a id="dor"></a>
 
-Critérios de prontidão verificados e atendidos pela equipe antes do início do desenvolvimento das histórias da Sprint 1:
+Critérios de prontidão que estabelecem se uma User Story está suficientemente refinada e pronta para entrar no ciclo de desenvolvimento:
 
-| Critério | Descrição | Atendimento pela Equipe |
+- [x] Título claro, descrição definida e objetivo compreendido;
+- [x] Critérios de aceitação escritos;
+- [x] Regras de negócio claras;
+- [x] Foi estimada pela equipe;
+- [x] Sem dependências bloqueadoras;
+- [x] Compreensão validada com o time;
+- [x] Mockup disponível;
+- [x] Os dados de treinamento estão disponíveis;
+
+| Critério | Descrição | Atendimento na Sprint 1 |
 | :------- | :-------- | :---------------------- |
-| **Clareza na descrição** | A User Story descreve explicitamente o papel, a ação e o valor de negócio gerado. | **Cumprido:** USs revisadas com papéis operacionais e corporativos reais da Dom Rock. |
-| **Critérios de aceitação** | A história possui parâmetros verificáveis que determinam a conclusão da demanda. | **Cumprido:** Critérios objetivos descritos individualmente para cada uma das 6 histórias. |
-| **Cenários de teste (BDD)** | A história possui ao menos um cenário estruturado em Dado, Quando e Então. | **Cumprido:** Cenários de validação formulados em BDD para cada US. |
-| **Dependências identificadas** | Relações entre esquemas de banco, planilhas e serviços mapeadas. | **Cumprido:** Definição das chaves de vínculo (matrícula, data de admissão e regras ativas). |
-| **Regras de negócio definidas** | Políticas de arredondamento (`BigDecimal`), cálculo e impedimentos esclarecidas. | **Cumprido:** Política de cálculo determinístico e regras de segregação especificadas. |
-| **Estimativa definida** | O esforço relativo foi ponderado e pontuado por consenso do time. | **Cumprido:** 29 Story Points distribuídos e acordados no Planning Poker. |
-| **Documentos de apoio** | Bases de dados e arquivos de exemplo disponibilizados para testes. | **Cumprido:** Planilhas de homologação de Vendas, RH e Taxas carregadas no repositório. |
-| **Validação com PO** | O escopo e prioridade das histórias foram formalmente validados com o PO. | **Cumprido:** Planejamento e priorização alinhados com o Product Owner antes do ciclo. |
+| **Título claro, descrição definida e objetivo compreendido** | User Stories estruturadas com persona, ação e valor de negócio explícitos. | **Cumprido:** USs 01 a 06 revisadas com papéis operacionais e corporativos reais da Dom Rock. |
+| **Critérios de aceitação escritos** | Critérios objetivos, mensuráveis e verificáveis detalhados para cada história. | **Cumprido:** Critérios de aceitação e cenários de teste em formato BDD (*Gherkin*) formulados para cada US. |
+| **Regras de negócio claras** | Políticas de cálculo determinístico, arredondamento monetário (`BigDecimal` `HALF_UP`) e impedimentos especificadas. | **Cumprido:** Política de cálculo determinístico, bloqueio de vigência indeterminada e regras de segregação de vínculos especificadas. |
+| **Foi estimada pela equipe** | Esforço relativo ponderado e pontuado de forma colaborativa. | **Cumprido:** 29 Story Points distribuídos e acordados no Planning Poker entre os membros do time. |
+| **Sem dependências bloqueadoras** | Pré-requisitos técnicos, esquemas de dados e fluxos mapeados sem impedimentos externos. | **Cumprido:** Definição das chaves de vínculo (matrícula, admissão, cargos, marcas) e contratos de API acordados. |
+| **Compreensão validada com o time** | Alinhamento conjunto entre desenvolvedores, PO e Scrum Master sobre o que construir. | **Cumprido:** Reunião de Sprint Planning realizada com consenso da equipe Bug Busters e validação do PO. |
+| **Mockup disponível** | Protótipos de interface e fluxos operacionais desenhados e validados. | **Cumprido:** Telas de cadastro manual de regras, importação de bases de ciclo e apuração desenhadas e aprovadas. |
+| **Os dados de treinamento estão disponíveis** | Bases de dados reais, massa de teste e dados de referência prontos para uso. | **Cumprido:** Planilhas de homologação de Vendas, RH e Taxas carregadas no repositório para ingestão e testes. |
 
 ---
 
-## 🏅 DoD — Definition of Done <a id="dod"></a>
+## 🏁 DoD — Definition of Done <a id="dod"></a>
 
-Critérios cumpridos para considerar as histórias da Sprint 1 formalmente concluídas:
+Critérios de conclusão que determinam se uma demanda ou incremento foi finalizado com excelência técnica e valor entregue:
 
-| Critério | Descrição | Evidência de Cumprimento |
-| :------- | :-------- | :----------------------- |
-| Critérios de aceitação atendidos | Todas as regras da US implementadas e em execução. | Demonstrado no vídeo funcional e interface web. |
-| Regras de negócio validadas | Cálculo determinístico e segregação de impedimentos funcionais. | 4.975 vendas calculadas e 43 impedimentos identificados. |
-| Dados persistidos corretamente | Flyway migrations executadas e integridade referencial mantida. | Tabelas de vendas, vínculos e regras persistidas no PostgreSQL. |
-| Testes executados | Testes de unidade e fluxos de API testados localmente e integrados. | Validação de carga e execução de cálculo sem falhas de concorrência. |
-| Código revisado | Pull Requests revisados e mesclados seguindo Git Flow. | Branches padronizadas integradas à branch de release da sprint. |
-| Funcionalidade integrada | Frontend Vue.js consumindo endpoints Spring Boot e serviço Python. | Ciclo completo demonstrado em gravação contínua. |
-| Documentação atualizada | README e relatório de sprint atualizados com contratos e logs. | Documentação sincronizada com o escopo entregue. |
-| Validação funcional pelo PO | Demonstração final realizada e aceita pelo Product Owner. | Entrega aprovada e validada para fechamento da Sprint 1. |
+- [x] Atende aos critérios de aceitação;
+- [x] Atende aos requisitos funcionais;
+- [x] Code review feita e validada;
+- [x] Código fonte disponível e executável;
+- [x] Teste de código realizado;
+- [x] Teste realizado na visão do cliente por todo o time;
+- [x] Vídeo dos incrementos da Sprint no repositório do github.
+
+| Critério | Descrição | Evidência de Cumprimento na Sprint 1 |
+| :------- | :-------- | :----------------------------------- |
+| **Atende aos critérios de aceitação** | Todas as regras, limites e fluxos de cada User Story verificados e operacionais. | **Cumprido:** Todas as regras das US 01 a 06 implementadas e em execução. |
+| **Atende aos requisitos funcionais** | Motor de comissionamento determinístico, segregação de impedimentos e ingestão validados de ponta a ponta. | **Cumprido:** 4.975 vendas calculadas e 43 impedimentos cadastrais identificados com precisão. |
+| **Code review feita e validada** | Revisão de código por pares via Pull Requests seguindo as diretrizes do Git Flow. | **Cumprido:** Pull Requests revisados e mesclados nas branches oficiais da sprint. |
+| **Código fonte disponível e executável** | Repositórios sincronizados, documentados e com persistência relacional garantida. | **Cumprido:** Tabelas de vendas, vínculos e regras persistidas no PostgreSQL com migrations Flyway. |
+| **Teste de código realizado** | Bateria de testes unitários e testes de integração executados sem falhas. | **Cumprido:** Validação de carga e execução de cálculo sem falhas de concorrência ou duplicação. |
+| **Teste realizado na visão do cliente por todo o time** | Validação funcional e homologação do comportamento do sistema realizada por todo o time durante o desenvolvimento. | **Cumprido:** Demonstração e homologação do ciclo operacional realizadas e aceitas pelo PO Davi Miyake. |
+| **Vídeo dos incrementos da Sprint no repositório do github** | Gravação em vídeo demonstrando todos os incrementos e fluxos da Sprint em execução real. | **Cumprido:** Demonstração completa gravada e referenciada no repositório oficial (link de vídeo no README/docs). |
 
 ---
 

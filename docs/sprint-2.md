@@ -286,7 +286,7 @@ Critérios de conclusão que determinam se uma demanda ou incremento foi finaliz
 | **Code review feita e validada** | Revisão de código por pares via Pull Requests seguindo as diretrizes do Git Flow. | **Cumprido:** Todos os PRs dos 3 repositórios revisados, aprovados e mesclados em `dev`/`main`. |
 | **Código fonte disponível e executável** | Repositórios sincronizados, documentados e sem erros de compilação ou execução. | **Cumprido:** Códigos atualizados nos repositórios da organização, com migrations Flyway e Docker operacionais. |
 | **Teste de código realizado** | Bateria de testes unitários, testes de integração e testes de borda automatizados executados. | **Cumprido:** Mais de 330 testes automatizados no Spring Boot e suíte de Golden Cases no Python aprovados. |
-| **Teste realizado na visão do cliente pela P.O.** | Validação funcional e homologação do comportamento do sistema realizada pelo Product Owner. | **Cumprido:** Homologação realizada pelo PO Davi Miyake validando os fluxos e a precisão das regras. |
+| **Teste realizado na visão do cliente por todo o time** | Validação funcional e homologação do comportamento do sistema realizada por todo o time durante o desenvolvimento. | **Cumprido:** Homologação realizada pelo PO Davi Miyake validando os fluxos e a precisão das regras. |
 | **Vídeo dos incrementos da Sprint no repositório do github** | Gravação em vídeo demonstrando todos os incrementos e fluxos da Sprint em execução real. | **Cumprido:** Demonstração funcional gravada e disponibilizada no repositório do projeto. |
 
 ---
