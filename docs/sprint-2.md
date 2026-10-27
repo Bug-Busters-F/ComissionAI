@@ -276,7 +276,7 @@ Critérios de conclusão que determinam se uma demanda ou incremento foi finaliz
 - [x] Code review feita e validada;
 - [x] Código fonte disponível e executável;
 - [x] Teste de código realizado;
-- [x] Teste realizado na visão do cliente pela P.O.;
+- [x] Teste realizado na visão do cliente por todo o time;
 - [x] Vídeo dos incrementos da Sprint no repositório do github.
 
 | Critério | Descrição | Evidência de Cumprimento na Sprint 2 |
