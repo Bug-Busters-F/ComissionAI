@@ -110,7 +110,7 @@ Elevar o nível de maturidade da plataforma ComissionAI por meio de simulação 
 
 ---
 
-## 🧪 Critérios de Aceitação e Refinamento Técnico (BDD / Gherkin) <a id="bdd"></a>
+## 🧪 Critérios de Aceitação e Refinamento Técnico <a id="bdd"></a>
 
 **Cenário 1: Execução de simulação em sandbox sem impacto contábil (US 07)**
 * **Dado** que o operador acesse o assistente de campanhas e selecione a competência de referência "07/2025" com uma proposta de regra multi-blocos;
