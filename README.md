@@ -52,7 +52,7 @@ A plataforma **ComissionAI** resolve esse cenário unificando a ingestão de dad
 | Kick Off | 26/08 | Concluido |  
 | [01](docs/sprint-1.md) | 27/09 | Concluida |
 | [02](docs/sprint-2.md) | 25/10 | Concluida |
-| [03](docs/sprint-3.md) | 22/11 | A fazer |
+| [03](docs/sprint-3.md) | 22/11 | Concluida |
 | Feira de Soluções | 03/12 | A fazer |
 
 ### Backlog do Produto
@@ -105,7 +105,7 @@ Para que uma User Story seja considerada pronta para execução na Sprint, ela d
 
 ### Roadmap
 
-<img width="1246" height="696" alt="image" src="https://github.com/user-attachments/assets/36b05001-fd0c-46f8-9b3f-35a6b42c23c0" />
+<img width="1266" height="704" alt="image" src="https://github.com/user-attachments/assets/31e61ba5-6484-492a-8726-693d67eeb783" />
 
 ---
 
@@ -115,12 +115,11 @@ https://github.com/user-attachments/assets/3d2bf9c3-1b60-414b-8e01-1c0d258c6be4
 
 ### Sprint 2
 
-
 https://github.com/user-attachments/assets/f865b432-0b44-4ec9-8c4a-7a9cbc3a5887
 
-<!-- ### Sprint 3
+### Sprint 3
 
-VIDEO AQUI -->
+https://github.com/user-attachments/assets/4dfbf95c-3a27-40d7-aebe-bc38782e45a4
 
 ### Manual de Instalação
 
